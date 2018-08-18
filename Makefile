@@ -90,6 +90,8 @@ clean:
 	rm -f *.log
 	rm -f *_flymake*
 	rm -f *_latexmk
+	rm -rf local-diff.pdf
+	rm -rf my-last-commit-diff.pdf
 
 cleanAll: clean
 	rm -rf $(PAPER).pdf
